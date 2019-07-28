@@ -15,7 +15,7 @@ class Automator:
 
     def login(self):
         self.driver.get('https://www.instagram.com/accounts/login/')
-        time.sleep(1)
+        time.sleep(2)
         user_input = self.driver.find_element_by_name('username')
         pw_input = self.driver.find_element_by_name('password')
         
