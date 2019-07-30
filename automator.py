@@ -3,6 +3,7 @@ import selenium
 import os
 import time
 
+#class to be built for selenium webdriver automation
 class Automator:
 
     def __init__(self, username, password):
